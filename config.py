@@ -6,19 +6,19 @@ if os.path.exists("local.env"):
     load_dotenv("local.env")
 
 
-API_ID = int(getenv("API_ID", "6435225")) #optional
-API_HASH = getenv("API_HASH", "") #optional
+API_ID = int(getenv("API_ID", "5351355388,6616561731")) #optional
+API_HASH = getenv("API_HASH", "16e57cb1d4c5f250cb5f3a28646f0e4b") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "6371879956").split()))
 OWNER_ID = int(getenv("OWNER_ID", "6371879956"))
-MONGO_URL = getenv("MONGO_URL")
+MONGO_URL = getenv("MONGO_URL", "mongodb://localhost:27017")
 BOT_TOKEN = getenv("BOT_TOKEN", "8114099090:AAEvjgQ-ymC7SauA3FvtsJ4dJZ0DszBOq_w")
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://telegra.ph/file/3c52a01057865f7511168.jpg')
 ALIVE_TEXT = getenv("ALIVE_TEXT")
 PM_LOGGER = getenv("PM_LOGGER")
-LOG_GROUP = getenv("LOG_GROUP")
+LOG_GROUP = getenv("LOG_GROUP", "@fxyycxx")
 GIT_TOKEN = getenv("GIT_TOKEN", "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") #personal access token
-REPO_URL = getenv("REPO_URL", "https://github.com/ITZ-ZAID/ZAID-USERBOT")
+REPO_URL = getenv("REPO_URL", "https://github.com/fxyy2009/ZAID-USERBOT")
 BRANCH = getenv("BRANCH", "master") #don't change
  
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
