@@ -18,16 +18,16 @@ if API_ID:
    API_ID = API_ID
 else:
    print("WARNING: API ID NOT FOUND USING ZAID API ⚡")
-   API_ID = "6435225"
+   API_ID = "5351355388,6616561731"
 
 if API_HASH:
-   API_HASH = API_HASH
+   API_HASH = "16e57cb1d4c5f250cb5f3a28646f0e4b"
 else:
    print("WARNING: API HASH NOT FOUND USING ZAID API ⚡")   
    API_HASH = "4e984ea35f854762dcde906dce426c2d"
 
-if not BOT_TOKEN:
-   print("WARNING: BOT TOKEN NOT FOUND PLZ ADD ⚡")   
+if not BOT_TOKEN: "8114099090:AAEvjgQ-ymC7SauA3FvtsJ4dJZ0DszBOq_w"
+   print("WARNING: BOT TOKEN ")   
 
 app = Client(
     name="app",
